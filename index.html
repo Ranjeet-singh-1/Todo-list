@@ -5,27 +5,29 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>TodoList</title>
+    <title></title>
     <link rel='stylesheet' href='style.css'>
     <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'>
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="box">
-            <div class="row "><h3>Todo App</h3> </div>
-            <div class="row ">
-                <div class="col"><input class ="task" placeholder="Add your new todo task" type="text" name="" id=""></div>
-                <div class="col"><span class="btn-1" >+</div>
+    <div class="box">
+        <div class="todoContainer">
+            <div class="heading row">Todo App</div>
+            <div class="row">
+                <div class="col-10 addTask"><input class="form-control" type="text" name="" placeholder="Add your todo task" id=""></div>
+                <div class="col-2 AddButton"><span class="">+</span></div>
             </div>
             <div class="row">
-                <ul class="anslist">
-                    <li class="list-wrapper"><span class="li">Task<span class="btn-2">X</span></span></li>
-                </ul>
+                <div class="col-12 anslistbox">
+                    <ul class="anslist">
+                        <li class="ansrow"><span class="task">Task 1</span><span class="delbtn" >X</span></li>
+                    </ul>
+                </div>
+                
             </div>
-            <div class="row pending">
-                <div class="col">You have 0 pending task</div>
-                <div class="col"><input class="clear-btn" type="button" value="Clear All"></div>
+            <div class="row">
+                <span class="pendings">You have 0 pending tasks</span><input type="button" value="Clear all">
             </div>
         </div>
     </div>

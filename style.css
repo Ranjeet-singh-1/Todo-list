@@ -1,92 +1,71 @@
 body {
-    margin: 0;
+    background-color: rgb(197, 197, 164) !important;
 }
 
-.wrapper {
+.box {
     height: 100vh;
     width: 100vw;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.todoContainer {
+    height: 70vh;
+    width: 35vw;
+    background-color: white;
+    border-radius: 1%;
+    padding: 20px 15px;
 }
 
 .row {
     margin: 0 !important;
 }
 
-.box {
-    background-color: white;
-    box-sizing: border-box;
-    width: 30vw;
-    height: 80vh;
-    border-radius: 5px;
-    box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
+.heading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px !important;
 }
 
-.col {
+.addTask {
     padding: 0 !important;
 }
 
-h3 {
-    padding: 0 !important;
-    margin: 20px 0px 20px 20px !important;
-    /* margin: top right bottom left*/
+.form-control {
+    border-radius: 0px !important;
 }
 
-.task {
-    margin: 0 5px 0 20px;
-    width: 300px;
-    padding: 0 5px;
-}
-
-.btn-1 , .btn-2 {
-    width: 40px;
-    display: inline-flex;
+.AddButton {
+    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: purple;
+    background-color: rgb(166, 38, 166);
+    margin: 0;
+}
+
+.AddButton:hover {
     cursor: pointer;
-    font-weight: bold;
-    /* border-radius: 2px; */
-}
-.btn-2{
-margin-left: 245px;
+    background-color: rgb(130, 43, 130);
 }
 
-ul {
+.anslistbox{
+padding: 0 !important;
+}
+
+.anslist{
     list-style: none;
-    padding: 0 !important;
-    margin: 5px 0 0 20px !important;
+    padding: 0;
+    margin: 0;
 }
 
-.li{
-    display: inline-block;
-    width: 345px;
-    background-color: #cddbd6;
-    padding: 0px 0 0 9px;
+.ansrow{
+    background-color: rgba(188, 177, 177, 0.525);
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-top: 10px;
 }
+.delbtn{
 
-.btn-2 {
-    width: 40px;
-    padding: 0 10px;
-    margin-left: 266px;
-    visibility: hidden
-}
-
-.li:hover .btn-2{
-    visibility: visible;
-}
-
-li {
-    margin-top: 5px;
-}
-
-.pending {
-    margin: 15px 15px !important;
-}
-
-.clear-btn {
-    margin-left: 105px;
 }

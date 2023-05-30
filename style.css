@@ -62,10 +62,40 @@ padding: 0 !important;
 
 .ansrow{
     background-color: rgba(188, 177, 177, 0.525);
-    padding: 5px 10px;
     border-radius: 2px;
     margin-top: 10px;
+    height: 34px;
+    display: flex;
+    align-items: center;
 }
-.delbtn{
+.delbtn {
+  color: white;
+  background-color: #d51919;
+  height: 34px;
+  width: 34px;
+  float: right !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
 
+.task{
+    margin-left: 10px;
+}
+
+.pendingbox{
+    margin-top: 15px !important;
+}
+
+.pendings{
+    padding: 0 !important;
+    font-weight: bolder;
+}
+.clearallbtn{
+    padding: 5px !important;
+    text-align: center;
+    color: white;
+    background: #a723a7;
+    border-radius: 3px;
 }
